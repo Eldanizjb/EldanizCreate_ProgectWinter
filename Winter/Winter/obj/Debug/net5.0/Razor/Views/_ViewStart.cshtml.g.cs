@@ -19,8 +19,15 @@ using Winter;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\ACER\source\repos\Winter\Winter\Views\_ViewImports.cshtml"
+using Winter.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6bb0e02608e2feb075e3e51060487bc9ca9a5471", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6035dbf2dbf8461425d3b84a788bae3bbc48d23a", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
