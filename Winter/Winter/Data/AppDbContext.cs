@@ -48,7 +48,6 @@ namespace Winter.Data
         public DbSet<Track> Tracks { get; set; }
         public DbSet<Tracking> Trackings { get; set; }
         public DbSet<User> Users { get; set; }
-      
     }
 
 

@@ -154,3 +154,4 @@ C:\Users\ACER\source\repos\Winter\Winter\obj\Debug\net5.0\Razor\Views\Login\Inde
 C:\Users\ACER\source\repos\Winter\Winter\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
 C:\Users\ACER\source\repos\Winter\Winter\obj\Debug\net5.0\Razor\Views\SingleBlog\Index.cshtml.g.cs
 C:\Users\ACER\source\repos\Winter\Winter\obj\Debug\net5.0\Razor\Views\SingleProduct\Index.cshtml.g.cs
+C:\Users\ACER\source\repos\Winter\Winter\obj\Debug\net5.0\Razor\Views\Shared\_BannerPartial.cshtml.g.cs

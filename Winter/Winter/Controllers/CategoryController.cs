@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Winter.Data;
 using Winter.Models;
+using Winter.ViewModels;
 
 namespace Winter.Controllers
 {
@@ -21,9 +22,17 @@ namespace Winter.Controllers
 
         public IActionResult Index()
         {
-            List<Product> products = _context.Products.Include("ProductCategory").Include("Filter").Include("Details").ToList();
 
-            return View(products);
+            VmHome model = new VmHome
+            {
+
+                Products = _context.Products.OrderByDescending(p => p.ProductCategory).Take(6).ToList(),
+
+                ProductCategories = _context.ProductCategories.ToList(),
+                Filters = _context.Filters.ToList(),
+                Details = _context.Details.ToList()
+            };
+            return View(model);
         }
     }
 }

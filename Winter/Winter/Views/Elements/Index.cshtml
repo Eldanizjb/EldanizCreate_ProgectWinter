@@ -1,23 +1,11 @@
-﻿
+﻿@model VmHome
+
 @{
     ViewData["Title"] = "Index";
 }
 
+<partial name="_BannerPartial" model="Model.BlogCategories" />
 
-
-<section class="breadcrumb breadcrumb_bg">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-12">
-                <div class="breadcrumb_iner">
-                    <div class="breadcrumb_iner_item">
-                        <p>Home / About</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="sample-text-area">
@@ -394,7 +382,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="~/img/elements/g7.jpg" class="img-pop-up img-gal" >
+                    <a href="~/img/elements/g7.jpg" class="img-pop-up img-gal">
                         <div class=" single-gallery-image" style="background: url(img/elements/g7.jpg);"></div>
                     </a>
                 </div>
